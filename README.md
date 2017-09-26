@@ -18,6 +18,9 @@ curl http://192.168.1.49?relay #change the relay. If it is on, it will turn off 
 curl http://192.168.1.49?exit #exit the script. failsafe or accessibility reasons. 
 ```
 
+*If you find that you cannot access the REPL because the server is running and you can't exit (no button nor ?/exit is working). With screen running, press the reset button on your board, and quickly ctrl+c to quit the boot.py and main.py before the server is able to start.*
+
+
 <hr>
 <p align="center">
   <img src="https://github.com/datguy-dev/HTTP-Controlled-Relay-Esp8266-/blob/master/pics/smallrelay/my_photo-5.jpg" title="Main Window"><br>
