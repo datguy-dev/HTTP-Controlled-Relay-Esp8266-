@@ -5,7 +5,7 @@ MicroPython code for Esp8266 controlled relays. (DIY Iot devices)
 2. Install [Adafruit's Ampy](https://github.com/adafruit/ampy) tool and screen (ex pacman -S screen or apt-get install screen)
 3. Edit the code. Change the network attributes, led, relay, or button GPIO pins in both boot.py and main.py. The button is not needed, but it is recommended. Adjust the code to your setup if needed.
 
-### Notes: root is required unless user is a member of the "dialout group." Re-log for changes to take affect. Additionally, boot.py will automagically call main.py after it's completed.
+###### Notes: Root access is required unless your user is a member of the "dialout" group. (Re-log for changes to take affect.) Additionally, boot.py will automagically call main.py after it's completed.
 - To access the REPL prompt:
 ```screen /dev/ttyUSB0 115200```
 - To put scripts onto the Esp8266 board:
