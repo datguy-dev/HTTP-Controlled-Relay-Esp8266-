@@ -1,5 +1,5 @@
 # HTTP-Controlled-Relay-Esp8266-
-MicroPython code for Esp8266 relays for DIY Iot
+MicroPython code for Esp8266 controlled relays. (DIY Iot devices)
 
 1. Flash the MicroPython firmware [https://docs.micropython.org](https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/intro.html)
 2. Install [Adafruit's Ampy](https://github.com/adafruit/ampy) tool and screen (ex pacman -S screen or apt-get install screen)
