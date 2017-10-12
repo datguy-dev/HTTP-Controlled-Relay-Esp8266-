@@ -1,0 +1,17 @@
+#Adjust the api key, geo coords, and time in automated_lights.py.
+
+#lights.py checks /tmp/lights.log to check if should run.
+#	Automatic = run. Manual = Don't run.
+
+#if Automatic, turn on the lights after sunrise (7am) till about the afternoon (12pm). Turn off the #lights around sunset (6pm) in the evening until midnight (12am). Additionally, if sunrise is #triggered, but it is cloudy outside, keep the lights on during the afternoon using open weather map #data. (https://openweathermap.org/)
+
+#crontab entry to run once per hour.
+0 * * * * python /path/to/automated_lights.py
+
+#Add these to ~/.bashrc. Restart terminal to take affect.
+alias lights_call='curl http://192.168.1.49?relay';
+alias lights_mode='/path/to/mode.sh'
+
+
+
+
